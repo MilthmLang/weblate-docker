@@ -20,7 +20,7 @@ RUN --mount=type=cache,target=/.uv-cache \
       uv pip install \
         --compile-bytecode \
         -r /app/src/requirements.txt \
-        "https://github.com/translate/translate/archive/master.zip" \
+        "https://github.com/MilthmLang/translate/archive/master.zip" \
         "https://github.com/WeblateOrg/language-data/archive/main.zip" \
         "https://github.com/WeblateOrg/weblate/archive/$WEBLATE_DOCKER_GIT_REVISION.zip#egg=Weblate[$WEBLATE_EXTRAS]" \
         ;; \

@@ -29,6 +29,8 @@ RUN \
         -r /app/src/requirements.txt \
         "https://github.com/MilthmLang/translate/archive/master.zip" \
         "https://github.com/WeblateOrg/language-data/archive/main.zip" \
+        "https://github.com/ParaParty/paraparty_social_core/archive/master.zip" \
+        "https://github.com/MorizeroDev/milkloud_social_core/archive/master.zip" \
         "https://github.com/MilthmLang/weblate/archive/$WEBLATE_DOCKER_GIT_REVISION.zip#egg=Weblate[$WEBLATE_EXTRAS]" \
         ;; \
     * ) \

@@ -55,11 +55,13 @@ ruamel.yaml==0.18.15
 sentry-sdk==2.38.0
 siphashc==2.5
 social-auth-app-django==5.5.1
-social-auth-core==4.7.0
+git+https:/github.com/python-social-auth/social-core.git@master#egg=social-auth-core
 tesserocr==2.8.0
-translate-toolkit==3.16.1
+git+https://github.com/MilthmLang/translate.git@master#egg=translate-toolkit
 translation-finder==2.23
 urllib3==2.5.0
 weblate-fedora-messaging==0.12
 weblate-language-data==2025.8
 wllegal==2025.6
+git+https:/github.com/ParaParty/paraparty_social_core.git@master#egg=paraparty_social_core
+git+https:/github.com/MorizeroDev/milkloud_social_core.git@master#egg=milkloud_social_core

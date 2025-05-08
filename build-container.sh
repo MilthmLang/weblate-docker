@@ -4,4 +4,3 @@ SHA=$(curl -s https://api.github.com/repos/MilthmLang/weblate/branches/main | jq
 DATE=$(date -I)
 
 bash .github/bin/bleeding "$SHA" "$DATE"
-docker build .

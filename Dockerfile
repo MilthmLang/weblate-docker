@@ -27,6 +27,7 @@ RUN \
         --no-binary xmlsec \
         --no-binary lxml \
         -r /app/src/requirements.txt \
+        "https://github.com/python-social-auth/social-core/archive/master.zip" \
         "https://github.com/MilthmLang/translate/archive/master.zip" \
         "https://github.com/WeblateOrg/language-data/archive/main.zip" \
         "https://github.com/ParaParty/paraparty_social_core/archive/master.zip" \
